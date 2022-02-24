@@ -1,0 +1,220 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/* navigation */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  padding: 8px 0px;
+  z-index: 9999;
+}
+
+nav .logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(9, 9, 100);
+}
+
+.nav__links ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav__links ul li {
+  margin-right: 15px;
+}
+
+.nav__links ul li a {
+  text-decoration: none;
+  color: rgb(41, 107, 194);
+}
+
+nav button {
+  color: white;
+  background-color: rgb(41, 107, 194);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+}
+
+/* header */
+
+.header {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)),
+    url(./images/writing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin-top: 10px;
+}
+
+.header .header__nav {
+  background-color: rgb(41, 107, 194);
+  padding: 10px;
+}
+
+.header__nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: right;
+  align-items: center;
+}
+
+.header__nav ul li {
+  margin-right: 15px;
+}
+
+.header__nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.header__nav input {
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding-left: 5px;
+}
+
+.header__content {
+  margin: 150px;
+  color: white;
+}
+
+.header__content p {
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.header__content h1 {
+  font-size: 50px;
+  text-transform: capitalize;
+}
+
+.btn__skyblue {
+  background-color: rgb(41, 107, 194);
+  color: white;
+  padding: 20px 60px;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  text-transform: uppercase;
+  margin-top: 25px;
+}
+
+/* section two */
+
+.section__two {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin: auto;
+  padding: 20px 0px;
+}
+
+.section__two > div {
+  width: 50%;
+}
+
+.section__two .right img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.section__two .left h3 {
+  color: rgb(9, 9, 100);
+  font-size: 50px;
+  margin: 50px 0px;
+}
+
+.section__two .left p {
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+
+.dark__blue {
+  color: white;
+  background-color: rgb(9, 9, 100);
+  border: none;
+  padding: 15px 40px;
+  border-radius: 10px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.dark__blue:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+/* section three */
+
+.section__three {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin: auto;
+  padding: 20px 0px;
+}
+
+.section__three .three__div {
+  padding: 50px;
+  background-color: rgb(43, 43, 211);
+  color: white;
+  margin: 10px;
+  border-radius: 10px;
+  width: 20%;
+}
+
+.section__three .three__div h1 {
+  font-size: 40px;
+  width: 78%;
+  text-align: center;
+  padding: 0px 30px;
+  text-transform: capitalize;
+  line-height: 60px;
+}
+
+.section__three .three__div p {
+  font-weight: lighter;
+  line-height: 30px;
+  margin-top: 30px;
+  color: rgb(235, 233, 233);
+}
+
+.section__three .three__div button {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  padding: 20px 60px;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  text-transform: uppercase;
+  margin-top: 25px;
+}
+
+.section__three .three__div button:hover {
+  background-color: rgb(35, 21, 226);
+  color: rgb(255, 255, 255);
+}
+
+#btn__two,
+#btn__three {
+  margin-top: 200px;
+}
+
+#btn__one {
+  margin-top: 140px;
+}
