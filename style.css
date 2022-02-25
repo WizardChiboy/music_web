@@ -173,7 +173,7 @@ nav button {
   padding: 50px;
   background-color: rgb(43, 43, 211);
   color: white;
-  margin: 10px;
+  margin: 10px 0px;
   border-radius: 10px;
   width: 20%;
 }
@@ -197,24 +197,76 @@ nav button {
 .section__three .three__div button {
   background-color: rgb(255, 255, 255);
   color: black;
-  padding: 20px 60px;
   outline: none;
   border: none;
   border-radius: 20px;
   text-transform: uppercase;
-  margin-top: 25px;
+  margin: auto;
+  padding: 20px 30px;
 }
 
+.btn__div {
+  width: 70%;
+  margin: auto;
+  margin-top: 140px;
+  text-align: center;
+}
 .section__three .three__div button:hover {
   background-color: rgb(35, 21, 226);
   color: rgb(255, 255, 255);
 }
 
-#btn__two,
-#btn__three {
-  margin-top: 200px;
+#btn__div__s {
+  margin-top: 60px;
 }
 
-#btn__one {
-  margin-top: 140px;
+/* section four */
+
+.section__four {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin: auto;
+}
+
+.section__four > .left {
+  width: 30%;
+}
+
+.section__four > .right {
+  width: 70%;
+}
+
+.section__four .right img {
+  width: 48%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  height: 200px;
+}
+
+.section__four .right img:first-child {
+  width: 30%;
+}
+
+.section__four .right img:last-child {
+  margin-right: 140px;
+  width: 30%;
+}
+
+.section__four .right .right__flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section__four .left h1 {
+  color: rgb(9, 9, 100);
+  text-transform: capitalize;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.section__four .left p {
+  line-height: 30px;
+  margin: 40px 0px;
 }
