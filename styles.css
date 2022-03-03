@@ -1,0 +1,22 @@
+section {
+  display: flex;
+  justify-content: space-between;
+}
+
+section > div {
+  width: 50%;
+}
+
+section > div img {
+  width: 50%;
+}
+
+section .right {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: blue;
+}
+
+#l {
+  float: right;
+}

@@ -50,7 +50,7 @@ nav button {
 
 .header {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)),
-    url(./images/writing.jpg);
+    url(./images/logo.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -269,4 +269,221 @@ nav button {
 .section__four .left p {
   line-height: 30px;
   margin: 40px 0px;
+}
+
+.section__five {
+  background: linear-gradient(
+      to right,
+      rgba(25, 55, 219, 0.7),
+      rgba(60, 14, 228, 0.7)
+    ),
+    url(./images/writing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 70px;
+  align-items: center;
+}
+
+.section__five > div {
+  width: 50%;
+  color: white;
+}
+
+.section__five > div > img {
+  width: 90%;
+}
+
+.section__five > .right h1 {
+  font-size: 45px;
+  text-transform: capitalize;
+}
+
+.section__five > .right p {
+  line-height: 30px;
+  margin: 40px 0px;
+}
+
+.section__six {
+  display: flex;
+  flex-wrap: wrap;
+  width: 85%;
+  margin: 20px auto;
+  justify-content: space-between;
+}
+
+.section__six > div {
+  width: 40%;
+  margin-bottom: 20px;
+}
+
+.section__six .div__six {
+  padding: 60px 50px;
+  background-color: rgb(41, 107, 194);
+  color: white;
+  border-radius: 10px;
+}
+
+.section__six .div__six p {
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+#id__six {
+  padding: 20px 50px;
+}
+
+#id__six h1 {
+  color: rgb(9, 9, 100);
+  text-transform: capitalize;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+#id__six p {
+  line-height: 30px;
+  margin: 20px 0px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 100px;
+  background-color: rgb(27, 86, 248);
+  color: white;
+  align-items: center;
+}
+
+footer .left {
+  width: 30%;
+}
+
+footer .left img {
+  width: 20%;
+  height: 60px;
+
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+footer .right {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .right > div {
+  width: 33%;
+}
+
+footer .right > div h3 {
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+
+footer .right > div p {
+  line-height: 30px;
+  text-transform: capitalize;
+}
+
+/* media query */
+
+@media (max-width: 800px) {
+  .nav__links ul {
+    display: block;
+  }
+
+  .header__nav ul {
+    justify-content: space-around;
+  }
+
+  .header__content {
+    margin: 150px 50px;
+  }
+
+  .header__content h1 {
+    font-size: 40px;
+  }
+
+  .btn__skyblue {
+    padding: 20px 50px;
+  }
+
+  .header {
+    height: 70vh;
+  }
+
+  .section__two {
+    display: block;
+  }
+
+  .section__two > div {
+    width: 100%;
+  }
+
+  .section__two .right img {
+    margin-top: 20px;
+  }
+
+  .section__three {
+    display: block;
+  }
+
+  .section__three .three__div {
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+
+  .section__three .three__div h1 {
+    font-size: 25px;
+    width: 100%;
+    padding: 0px;
+    line-height: 30px;
+    margin-top: 20px;
+  }
+
+  .btn__div {
+    margin-top: 80px;
+  }
+  #btn__div__s {
+    margin-top: 0px;
+  }
+
+  .section__four {
+    display: block;
+  }
+
+  .section__four > .left,
+  .section__four > .right {
+    width: 100%;
+  }
+
+  .section__four .right img,
+  .section__four .right img:first-child {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .section__four .right img:last-child {
+    margin-right: 0px;
+    width: 100%;
+  }
+
+  .section__five {
+    display: block;
+    padding: 10px;
+  }
+
+  .section__five > div {
+    width: 100%;
+  }
+
+  .section__five > div > img {
+    width: 100%;
+  }
 }
